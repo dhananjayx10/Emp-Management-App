@@ -9,12 +9,20 @@ import jakarta.persistence.Id;
 @Entity
 public class Employee {
 
-    @Id
+	
+    @Id //no need add id in json 
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String firstName;
     private String lastName;
     private String email;
+    
+//    {
+//   //   "id": 6,
+//        "firstName": "ABC",
+//        "lastName": "XYZ",
+//        "email": "ABC.XYZ.com"
+//    }
 
     // Getters and Setters
     public Long getId() { return id; }
