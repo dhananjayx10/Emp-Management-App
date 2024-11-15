@@ -1,4 +1,5 @@
 ![image alt](https://github.com/dhananjayx10/Emp-Management-App/blob/9fe1bd9f84aa809c52af0ef23a08f4c21e93da68/ClassEntities.png)
+![image alt](https://github.com/dhananjayx10/Emp-Management-App/blob/2264240bd047184ce7c78bc70dbe49e5a50e1f26/H2database.png)
 Explanation
 Controller (EmployeeController.java):
 Located in the controller package and handles HTTP requests.
