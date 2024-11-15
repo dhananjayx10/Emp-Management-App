@@ -25,6 +25,16 @@ public class EmployeeService {
 //		return employeeRepository.findById(id)
 //				.orElseThrow(() -> new ResourceNotFoundException("Employee not found with ID " + id));
 //	}
+	
+//	public Employee getEmployeeById(Long id) { 
+//		Employee employee = employeeRepository.findById(id); 
+//		if (employee == null) { 
+//			throw new ResourceNotFoundException("Employee not found with ID " + id);
+//			} return employee; 
+//		}
+//Using Optional leads to safer and more maintainable code by clearly handling cases 
+//where a value might be absent. avoids potential null pointer issues.
+	
 	public Employee getEmployeeById(Long id) {
 		Optional<Employee> employee = employeeRepository.findById(id);
 		if (employee.isPresent()) {
