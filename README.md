@@ -21,7 +21,7 @@ In the service package, these classes contain business logic, such as reading fi
 
 
 
-Example Usage in API:/n
+Example Usage in API:
 http://localhost:8080/api/employees
 __________________________________
 Creating an Employee:
