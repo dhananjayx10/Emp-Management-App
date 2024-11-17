@@ -1,5 +1,11 @@
 ![image alt](https://github.com/dhananjayx10/Emp-Management-App/blob/9fe1bd9f84aa809c52af0ef23a08f4c21e93da68/ClassEntities.png)
 ![image alt](https://github.com/dhananjayx10/Emp-Management-App/blob/2264240bd047184ce7c78bc70dbe49e5a50e1f26/H2database.png)
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true //is imp
 ![image alt](https://github.com/dhananjayx10/Emp-Management-App/blob/397f4bb06ef5e1ec901e19ccfebee60fac9af410/PostmanOperation.png)
 Explanation
 Controller (EmployeeController.java):
